@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "parse-actor-script"
+version = "0.1.0"
+description = ""
+authors = ["buhovets <x10c@duck.com>"]
+readme = "README.md"
+packages = [{include = "parse_actor_script"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+apify-client = "^1.4.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
